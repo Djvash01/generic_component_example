@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:generic_component_example/screens/list_view1_screen.dart';
+
+import 'package:generic_component_example/screens/list_view2_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Material App',
-      home: Listview1Screen()
+      home: Listview2Screen()
     );
   }
 }
