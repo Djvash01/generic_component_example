@@ -1,21 +1,29 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  static final Color primaryColor = Colors.red.shade400;
+  static final Color primary = Colors.red.shade400;
 
   static final ThemeData lightTheme = ThemeData.light().copyWith(
     //color primario
-    primaryColor: primaryColor,
+    primaryColor: primary,
 
     //appbar theme
-    appBarTheme: AppBarTheme(color: primaryColor, elevation: 0)
+    appBarTheme: AppBarTheme(
+      color: primary, 
+      elevation: 0
+    ),
+
+    //Text button theme
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom( primary: primary )
+    )
   );
 
   static final ThemeData darkTheme = ThemeData.dark().copyWith(
     //color primario
-    primaryColor: primaryColor,
+    primaryColor: primary,
 
     //appbar theme
-    appBarTheme: AppBarTheme(color: primaryColor, elevation: 0)
+    appBarTheme: AppBarTheme(color: primary, elevation: 0)
   );
 }
