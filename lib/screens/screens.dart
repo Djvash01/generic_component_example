@@ -1,3 +1,5 @@
+export 'package:generic_component_example/screens/inputs_screen.dart';
+
 export 'package:generic_component_example/screens/alert_screen.dart';
 export 'package:generic_component_example/screens/animated_screen.dart';
 export 'package:generic_component_example/screens/avatart_screen.dart';
