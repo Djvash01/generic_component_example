@@ -31,6 +31,11 @@ class AppRoutes {
         icon: Icons.card_membership_sharp,
         name: 'card',
         screen: const CardScreen()),
+    MenuOption(
+        route: 'avatar',
+        icon: Icons.supervised_user_circle,
+        name: 'Circle avatar',
+        screen: const AvatarScreen()),
   ];
 
   // static Map<String, Widget Function(BuildContext)> routes = {
