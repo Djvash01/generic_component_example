@@ -46,6 +46,11 @@ class AppRoutes {
         icon: Icons.sledding_outlined,
         name: 'Slider',
         screen: const SliderScreen()),
+    MenuOption(
+        route: 'listbuilder',
+        icon: Icons.build_outlined,
+        name: 'List builder & infinity scroll',
+        screen: const ListViewBuilderScreen()),
   ];
 
   // static Map<String, Widget Function(BuildContext)> routes = {
